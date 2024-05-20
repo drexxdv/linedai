@@ -8,7 +8,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs')
 
 app.get('/', async (req, res) => {
-  res.send('amogus test')
+  res.render('chat')
 });
 
 app.listen('80', async () => {
